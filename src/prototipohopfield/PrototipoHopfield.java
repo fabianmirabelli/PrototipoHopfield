@@ -26,7 +26,7 @@ public class PrototipoHopfield{
     private JFrame marco;
     private JPanel panelPrincipal;
     private JPanel[] panelSecundario;
-    private JButton execute;
+    private JButton ejecutar;
     private int[][] patrones;
     private int[][] matrizDePeso;
     private boolean[] patronEntrada;
@@ -86,12 +86,12 @@ public class PrototipoHopfield{
             panelPrincipal.add(panelSecundario[i]);
         }
 
-        execute = new JButton("Buscar Imagen");
-        execute.addActionListener(new EjecutarButton());
+        ejecutar = new JButton("Buscar Imagen");
+        ejecutar.addActionListener(new EjecutarButton());
 
         marco.setLayout(new BorderLayout());
         marco.add(panelPrincipal, BorderLayout.CENTER);
-        marco.add(execute, BorderLayout.SOUTH);
+        marco.add(ejecutar, BorderLayout.SOUTH);
         marco.setVisible(true);
     }
     
