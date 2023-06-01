@@ -88,13 +88,15 @@ public class PrototipoHopfield{
 
         ejecutar = new JButton("Buscar Imagen");
         ejecutar.addActionListener(new EjecutarButton());
-
+        ejecutar.setPreferredSize(new Dimension(ejecutar.getPreferredSize().width, ejecutar.getPreferredSize().height*2));
+        ejecutar.setBackground(Color.cyan);
+         
         marco.setLayout(new BorderLayout());
         marco.add(panelPrincipal, BorderLayout.CENTER);
         marco.add(ejecutar, BorderLayout.SOUTH);
         marco.setVisible(true);
     }
-    
+     
   
     private void crearMatrizDePesos() {
         // Se realiza la matriz de pesos correspondiente a los´patrones almacenados.

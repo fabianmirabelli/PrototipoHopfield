@@ -1,14 +1,14 @@
-No hay Convergencia.
-No se encontro la imagen Buscada:
-El vector de entrada difiere de los patrones almacenados.
+Hay Convergencia!!!.
+Se encontro la imagen Buscada:
+El vector de entrada es similar a los patrones almacenados.
 Respuesta de la red a la selección:
--1 , -1 , -1 , -1 , -1 , -1 , -1 , -1 , -1 , -1 , 
 -1 , -1 , -1 , -1 , -1 , -1 , -1 , -1 , -1 , -1 , 
 -1 , -1 , -1 , -1 , 1 , 1 , -1 , -1 , -1 , -1 , 
 -1 , -1 , -1 , 1 , -1 , -1 , 1 , -1 , -1 , -1 , 
 -1 , -1 , 1 , -1 , -1 , -1 , -1 , 1 , -1 , -1 , 
+-1 , 1 , -1 , -1 , -1 , -1 , -1 , -1 , 1 , -1 , 
+-1 , 1 , -1 , -1 , -1 , -1 , -1 , -1 , 1 , -1 , 
 -1 , -1 , 1 , -1 , -1 , -1 , -1 , 1 , -1 , -1 , 
--1 , -1 , -1 , 1 , -1 , -1 , 1 , -1 , -1 , -1 , 
+1 , -1 , -1 , 1 , -1 , -1 , 1 , -1 , -1 , -1 , 
 1 , -1 , -1 , -1 , 1 , 1 , -1 , -1 , -1 , -1 , 
-1 , -1 , -1 , -1 , -1 , -1 , -1 , -1 , -1 , -1 , 
 1 , 1 , 1 , -1 , -1 , -1 , -1 , -1 , -1 , -1 , 
